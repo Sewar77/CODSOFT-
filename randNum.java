@@ -3,7 +3,6 @@ import java.util.Random;
 import java.util.Scanner;
 
 public class randNum {
-
 	public static void main(String[] args) {
 		Random rand = new Random();
 		Scanner read = new Scanner(System.in);
@@ -12,7 +11,6 @@ public class randNum {
 		int counter = 3; //only 3 attempts allwoed. 
 		int win = 0; //to calculate how many times that user win and lose. 
 		int lose = 0;
-		
 		while(counter > 0 && 0 <= randomNum && randomNum <= 100) {
 			int num = read.nextInt();
 			counter--;
@@ -50,13 +48,5 @@ public class randNum {
 			}
 		}
 		read.close();
-	}
-			
-		
-	}
-
-	
-	
-		
-	
-
+	}	
+}
